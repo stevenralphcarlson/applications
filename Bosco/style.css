@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Montserrat, sans-serif;
+}
+
+.header-text {
+    font-size: 4rem;
+    text-align: center;
+    color: dodgerblue;
+}
+
+.form {
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+label {
+    font-size: 1.5rem;
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+.destination-label {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.origin {
+    border-color: dodgerblue;
+    outline: none;
+    height: 30px;
+    font-size: 1.5rem;
+}
+
+.destination {
+    border-color: dodgerblue;
+    outline: none;
+    height: 30px;
+    font-size: 1.5rem;
+}
+
+.submitBtn {
+    color: white;
+    background-color: dodgerblue;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
+}
+
+.submit-btn:hover {
+    filter: brightness(110%);
+}
