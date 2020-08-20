@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto+Condensed&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header-text {
+    font-size: 4rem;
+    text-align: center;
+    color: #0081c3;
+    text-shadow: 3px 3px 3px #929497;
+    letter-spacing: 5px;
+}
+
+.header-sub-text {
+    font-size: 1.5rem;
+    text-align: center;
+    color: black;
+    text-shadow: 3px 3px 3px #929497;
+}
+
+
+label {
+    font-size: 2rem;
+    color: #0081c3;
+    font-weight: 400;
+    text-shadow: 3px 3px 3px #929497;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+input {
+    height: 25px;
+    width: 300px;
+    font-family: 'Roboto Condensed', 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #929497;
+    outline: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.button-container {
+    margin-top: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.submitBtn {
+    font-size: 1.5rem;
+    font-family: 'Roboto Condensed', 'Courier New', Courier, monospace;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    color: white;
+    background: #0081c3;
+    border: none;
+    box-shadow: 5px 5px 5px #929497;
+    outline: none;
+}
+
+.submitBtn:hover {
+    cursor: pointer;
+    filter: brightness(80%);
+}
+
+.submitBtn:active {
+    transform: scale(0.98);
+}
+
+.results {
+    margin-top: 200px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}

@@ -1,0 +1,24 @@
+<%- include('header') -%>
+
+<h1 class="header-text">Bosco</h1>
+<p class="header-sub-text">An application for quoting vehicle transportation</p>
+<div class="container">
+    <form action="/Bosco/views/results.ejs" method="post">
+        <label for="origin" class="originLbl">Origin: </label>
+        <input type="text" class="origin" id="origin" placeholder="Enter an address.">
+        <label for="destination" class="destinationLbl">Destination: </label>
+        <input type="text" class="destination" id="destination" placeholder="Enter an address.">
+        <div class="button-container">
+            <button class="submitBtn" id="submitBtn" type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+<div class="results" id="results">
+    <span class="originAddress" id="originAddress"></span>
+    <span class="destinationAddress" id="destinationAddress"></span>
+    <span class="distance" id="distance"></span>
+    <span class="duration" id="duration"></span>
+</div>
+
+
+<%- include('footer') -%>
